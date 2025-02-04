@@ -1,0 +1,112 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+html , body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.6;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+h1{
+    background:#ff8c00;
+    padding:20px;
+    width: 100vw;
+    text-align: center;
+    text-transform: uppercase;
+    color:white;
+    font-weight: bold;
+}
+
+form{
+    padding:20px;
+    width: 370px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px 0;
+    border-radius: 8px;
+    background: white;
+}
+
+ol{
+    display: flex;
+    flex-direction: column;
+    padding: 15px 40px;
+    font-weight: 500;
+    font-size: 1.1rem;
+    list-style-type:decimal-leading-zero;
+}
+
+label{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    margin:0px 30px;
+    margin: 10px 0;
+}
+
+.mandetory{
+    color:red;
+    font-size: 0.9rem;
+}
+
+p{
+    text-align: right;
+    padding: 5px;
+    font-size: 0.8rem;
+    font-weight: 400;
+    color: #777;
+}
+
+section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width:100%;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+button{
+    background-color: #ff8c00;
+    border: none;
+    padding: 12px 20px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+    color: white;
+}
+
+button:hover {
+    background-color: #e07b00;
+    transform: scale(1.05);
+}
+
+/* .circle{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    align-self: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    border: 10px solid orange;
+    letter-spacing: 2px;
+    color:#636363;
+    font-weight: 900;
+    font-family: sans-serif;
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2) ,inset 0 10px 15px rgba(0, 0, 0, 0.134);
+} */
+ svg{
+    margin-left: 80px;
+ }
